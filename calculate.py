@@ -16,7 +16,7 @@ def get_final_number(n, count = -1):
     return n, final_count
 
 def get_number(n):
-    recursion_count = -1
+    recursion_count = 0
     while n != 1:
         recursion_count += 1
         if n % 2 == 0:
